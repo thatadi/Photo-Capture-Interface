@@ -11,8 +11,8 @@ This frontend application enables the collection of patient information and webc
 
 ## Technologies Used
 
-- **Frontend Framework**: [Insert Framework/Libraries Used]
-- **Webcam Capture Library**: [Insert Library Used for Webcam Integration]
+- **Frontend Framework**: React , NodeJs
+- **Webcam Capture Library**: React-Html5-camera -photo
 - **HTML, CSS, React, JavaScript**: Core technologies for building the interface.
 
 ## Getting Started
