@@ -1,0 +1,124 @@
+.Header{
+  height:70px;
+  width:100%;
+  padding-left:20px;
+  
+}
+.Card{
+  
+  height:100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+}
+.holder{
+  background-color:papayawhip;
+  position:relative;
+  height:650px;
+  width:650px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  border-radius: 12px;
+  border-color: black;
+  box-shadow:5px 5px 10px hsla(0,0%,0%,0.8);
+}
+.insidecard{
+  background-color: papayawhip;
+  text-align: left;
+  align-items: center;
+}
+label{
+  font-size:larger;
+  
+}
+input{
+  height:40px;
+  width:300px;
+  margin-top:10px;
+  margin-bottom:10px;
+  border-radius: 6px;
+  border-color: black;
+  border-style:solid;
+  background-color: snow;
+  transition: 0.3s ease-in-out 0.2s
+}
+input:hover{
+border-color: grey;
+transform: scale(1.15);
+
+}
+p{
+  font-size: medium;
+  text-align: center;
+}
+.submitbutton{
+  height:40px;
+  width:100px;
+  border-radius:6px;
+  margin-top:10px;
+  border-color: black;
+  border-width: 1px;
+  border-style:solid;
+  background-color: snow;
+  transition: 0.2s ease-in-out 0.1s
+}
+.submitbutton:hover{
+border-color: grey;
+transform: scale(1.125);
+cursor: pointer;
+}
+.photobutton{
+  display:inline-block
+}
+.photoholder{
+  background-color:papayawhip;
+  position:relative;
+  height:650px;
+  width:950px;
+  padding-top:50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  border-color: black;
+  box-shadow:5px 5px 10px hsla(0,0%,0%,0.8);
+}
+
+.photo{
+  height:40px;
+  width:100px;
+  border-radius:6px;
+  margin-top:25px;
+  margin-bottom:25px;
+  margin-left: 40px;
+  border-color: black;
+  border-width: 1px;
+  border-style:solid;
+  background-color: snow;
+  transition: 0.2s ease-in-out 0.1s
+}
+.photo:hover{
+  border-color: grey;
+  transform: scale(1.125);
+  cursor: pointer;
+  }
+.cap{
+  height:40px;
+  width:100px;
+  border-radius:6px;
+  margin-top:20px;
+  margin-left:50px;
+  border-color: black;
+  border-width: 1px;
+  border-style:solid;
+  background-color: snow;
+  transition: 0.2s ease-in-out 0.1s
+}
+.cap:hover{
+  border-color: grey;
+  transform: scale(1.125);
+  cursor: pointer;
+}
